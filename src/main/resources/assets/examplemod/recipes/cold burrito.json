@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#D#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bread"
+        },
+        "D": {
+            "item": "examplemod:Fancy Sauce"
+        }
+    },
+    "result": {
+        "item": "examplemod:Burrito (Frozen)",
+        "count": 1
+    }
+}
