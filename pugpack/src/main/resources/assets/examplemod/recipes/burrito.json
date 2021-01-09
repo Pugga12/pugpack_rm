@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "examplemod:Burrito (Frozen)"
+        },
+        {
+            "item": "minecraft:flint_and_steel"
+        }
+    ],
+    "result": {
+        "item": "examplemod:burrito",
+        "count": 2
+    }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "examplemod",
+  "name": "Pugpack Remastered",
+  "description": "The new, remastered, version of Pugpack!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AddyPug"],
+  "credits": "Designed by AddyPug",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

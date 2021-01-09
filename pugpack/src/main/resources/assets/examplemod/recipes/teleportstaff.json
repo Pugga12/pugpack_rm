@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "examplemod:Star Reactor"
+        },
+        {
+            "item": "examplemod:Teleport Wand"
+        },
+        {
+            "item": "examplemod:Star Reactor"
+        }
+    ],
+    "result": {
+        "item": "examplemod:Dark Teleport Staff",
+        "count": 1
+    }
+}

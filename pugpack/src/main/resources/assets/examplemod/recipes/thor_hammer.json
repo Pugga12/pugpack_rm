@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#N#",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "N": {
+            "item": "examplemod:Star Reactor"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "examplemod:Thor's Hammer",
+        "count": 1
+    }
+}
