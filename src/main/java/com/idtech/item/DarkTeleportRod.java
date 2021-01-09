@@ -13,7 +13,7 @@ public class DarkTeleportRod extends QuickLoader_Items {
 
 
     protected void onRightClick() {
-        BlockPos block = findBlockAtCursor(200);
+        BlockPos block = findBlockAtCursor(180);
         moveToBlock(block);
         displayMessage("Whoosh!");
     }
