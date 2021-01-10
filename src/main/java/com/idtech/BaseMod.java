@@ -27,7 +27,7 @@ public class BaseMod
 	 * You can change VERSION to higher numbers as you make new versions.
 	 */
 	public static final String MODID = "examplemod";
-	public static final String VERSION = "Alpha-0.1.2A";
+	public static final String VERSION = "Alpha-0.1.3";
 
 	/**
 	 * ----DO NOT EDIT----

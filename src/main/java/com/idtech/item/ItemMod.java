@@ -17,6 +17,7 @@ public class ItemMod {
 	public static GelPickaxe gelPickaxe;
 	public static GelSword gelSword;
 	public static Burrito burrito;
+	public static Chipotle_burrito chipotle_burrito;
 
 	public static void preInit(){
 
@@ -25,6 +26,7 @@ public class ItemMod {
 
 		// Tools
 		burrito = new Burrito(8, 0.1f, false);
+		chipotle_burrito = new Chipotle_burrito(2, 0.1f, false);
 		gelPickaxe = new GelPickaxe();
 		gelSword = new GelSword();
 
@@ -37,6 +39,7 @@ public class ItemMod {
 		BaseMod.proxy.registerItemInventoryRender(burrito, burrito.name);
 		BaseMod.proxy.registerItemInventoryRender(gelPickaxe, gelPickaxe.name);
 		BaseMod.proxy.registerItemInventoryRender(gelSword, gelSword.name);
+		BaseMod.proxy.registerItemInventoryRender(chipotle_burrito, chipotle_burrito.name);
 
 	}
 
@@ -46,5 +49,6 @@ public class ItemMod {
 		event.getRegistry().register(burrito.setRegistryName(burrito.name));
 		event.getRegistry().register(gelPickaxe.setRegistryName(gelPickaxe.name));
 		event.getRegistry().register(gelSword.setRegistryName(gelSword.name));
+		event.getRegistry().register(chipotle_burrito.setRegistryName(chipotle_burrito.name));
 	}
 }
