@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["AddyPug"],
   "credits": "Designed by AddyPug",
-  "logoFile": "",
+  "logoFile": "icon.png",
   "screenshots": [],
   "dependencies": []
 }
