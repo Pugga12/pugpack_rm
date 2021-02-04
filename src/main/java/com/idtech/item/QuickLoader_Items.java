@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import com.idtech.Insync_loader;
+import com.idtech.core.FSA;
 import org.apache.commons.io.FileUtils;
 
 import com.idtech.BaseMod;
@@ -60,7 +60,7 @@ public class QuickLoader_Items extends Item {
 	// need to call the constructor for QuickItem manually.
 	static {
 		// Loads all of the QuickItems that are in this package
-		Set<Class> classes = Insync_loader.loadClassesInPackage("com.idtech.item");
+		Set<Class> classes = FSA.loadClassesInPackage("com.idtech.item");
 		for (Class klass : classes) {
 			if (QuickLoader_Items.class.isAssignableFrom(klass) && QuickLoader_Items.class != klass) {
 				try {
