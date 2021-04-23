@@ -9,11 +9,11 @@ It is apparent that the Pugpack build.gradle no longer resolves to the forge jar
 The fan-made future of this mod rests on you, reader
 # Building
 ## Windows (command prompt)
-gradlew setupDecompWorkspace
-gradlew genIntellijRuns
+gradlew setupDecompWorkspace\
+gradlew genIntellijRuns\
 gradlew buildDependents
  
 ## Unix/Linux/MacOS (terminal)
-./gradlew setupDecompWorkspace
-./gradlew genIntellijRuns
+./gradlew setupDecompWorkspace\
+./gradlew genIntellijRuns\
 ./gradlew buildDependents
