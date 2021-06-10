@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#W#",
+        "#W#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wool",
+            "data": 10
+        },
+        "W": {
+            "item": "minecraft:stained_hardened_clay",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "examplemod:Judgemental Muni Chan Block",
+        "count": 1
+    }
+}

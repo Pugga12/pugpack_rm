@@ -5,11 +5,11 @@
   "description": "The new, remastered, version of Pugpack!",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/Pugga12/pugpack_rm",
   "updateUrl": "",
   "authorList": ["AddyPug"],
   "credits": "Designed by AddyPug",
-  "logoFile": "",
+  "logoFile": "icon2.png",
   "screenshots": [],
   "dependencies": []
 }

@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import com.idtech.Insync_loader;
+import com.idtech.core.FSA;
 import org.apache.commons.io.FileUtils;
 
 import com.idtech.BaseMod;
@@ -78,7 +78,7 @@ public class QuickLoader_Blocks extends Block {
 	// need to call the constructor for QuickBlock manually.
 	static {
 		// Loads all of the QuickBlocks that are in this package
-		Set<Class> classes = Insync_loader.loadClassesInPackage("com.idtech.block");
+		Set<Class> classes = FSA.loadClassesInPackage("com.idtech.block");
 		for (Class klass : classes) {
 			if (QuickLoader_Blocks.class.isAssignableFrom(klass) && QuickLoader_Blocks.class != klass) {
 				try {
